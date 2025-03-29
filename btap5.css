@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-rows: 100px auto 50px;
+    grid-template-columns: 1fr 2fr 1fr; /* Tỉ lệ 1:2:1 */
+    gap: 5px; /* Khoảng cách giữa các hàng */
+    height: 100vh;
+    background-color: #16a085;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    font-size: 18px;
+}
